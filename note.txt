@@ -1,0 +1,61 @@
+ePSXe pc req:
+CPU: Pentium II 500 or better
+RAM: 256 MB or more
+Graphics: A fast DirectX or Opengl compatible graphic card, e.g. the NVidia GeForce 2
+OS: Windows XP or later
+
+ePSXe android req:
+CPU: Chipset ARMv7 or x86;
+RAM: 512 MB or more
+GPU: OpenGL support;
+OS: Android 7.0 or later
+
+PCSX2 PC req:
+Requirements for PCSX2 Emulator: 
+* OS: Windows 10 Version 1809 (64-bit), Ubuntu 22.04/Debian or newer, Arch Linux, or other distro (64-bit), macOS 11.0 (Big Sur)
+* Processor: Supports SSE4.1 with PassMark single thread performance rating near or greater than 1500.
+* GPU: Direct3D 11 (Feature Level 10.0) support, OpenGL 3.3 support, Vulkan 1.1 support, PassMark G3D Mark rating around 3000 (GeForce GTX 750, Radeon RX 560, Intel Arc A380), 2 GB video memory
+* RAM: 8 GB system memory
+
+Requirements for Android PS2 Emulator:
+* OS: Android 7.0 or later
+* CPU: 4 Cores (Cortex A75 or higher), Snapdragon 845 or higher
+* RAM: 4GB or higher
+* GPU: OpenGL or Vulkan
+
+
+How to install PS1 and PS2
+1. Extract the downloaded file
+2. Open the emulator
+3. Run the ISO file that you have extracted
+4. Enjoy the game!
+If there are any problems when installing or there are bugs, please comment below.
+
+
+
+Meta description for Windows Games:
+(Meta title + Minimum Req)
+example: metatitle - minimumreq
+
+Meta description for Console Games:
+(Meta title + Game Size)
+example: metatitle - gamesize
+
+<div>
+    <div class="main-content flex flex-row mt-6 mb-2" style="z-index: 1;">
+        {{-- Left Content --}}
+        <div class="left-content bg-transparent border-0">
+            {{-- Name - Thumbnail - Desc --}}
+            <div class="game-detail-card border border-1 rounded-lg shadow p-4 mb-4">
+                <div class="game-detail-name text-white mb-5">
+                    <h3 class="text-2xl font-semibold">{{ $game->name }}</h3>
+                    <small class="text-medium">Posted by Admin - {{ $game->created_at }}</small>
+                </div>
+                <div class="game-detail-thumb-desc text-white flex flex-row justify-between">
+                    <img src="{{ asset('storage/' . $game->thumbnail) }}" class="game-detail-thumb me-4 shadow rounded-lg" alt="{{ $game->name }}">
+                    <p>Rule the halls of Bullworth Academy as Jimmy Hopkins, a mischievous teenager who must navigate the obstacles of a crumbling prep school where liars, cheats, and snobs are the most popular members of the student body and faculty. Stand up to bullies, outsmart the teachers, play pranks, and even engage in some off campus extracurricular activity in and around the town of Bullworth as you learn to survive the school year and rule the school. Rule the halls of Bullworth Academy as Jimmy Hopkins, a mischievous teenager who must navigate the obstacles of a crumbling prep school where liars, cheats, and snobs are the most popular members of the student body and faculty. Stand up to bullies, outsmart the teachers, play pranks, and even engage in some off campus extracurricular activity in and around the town of Bullworth as you learn to survive the school year and rule the school.</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
